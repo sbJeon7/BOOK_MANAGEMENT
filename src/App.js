@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './Start/Login';
+import Join from './Start/Join';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        App
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/join" element={<Join />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
