@@ -4,7 +4,9 @@ function Login() {
   const handleJoin = () => {               
     window.location.href='/join';
   };
-
+  const handleHome = () => {               
+    window.location.href='/home';
+  };
 
   return (
     <div>
@@ -12,7 +14,7 @@ function Login() {
       <br />
       아이디
       <input/>
-      <button>로그인</button>
+      <button onClick={handleHome}>로그인</button>
       <br />
       비밀번호
       <input/>
