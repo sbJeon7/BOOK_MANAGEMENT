@@ -2,7 +2,7 @@ import React from 'react'
 
 function BookChart() {
   return (
-    <div>BookChart</div>
+    <div>통계</div>
   )
 }
 

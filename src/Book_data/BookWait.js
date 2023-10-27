@@ -2,7 +2,7 @@ import React from 'react'
 
 function BookWait() {
   return (
-    <div>BookWait</div>
+    <div>예약도서</div>
   )
 }
 

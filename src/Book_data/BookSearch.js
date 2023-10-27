@@ -2,7 +2,7 @@ import React from 'react'
 
 function BookSearch() {
   return (
-    <div>BookSearch</div>
+    <div>도서검색</div>
   )
 }
 

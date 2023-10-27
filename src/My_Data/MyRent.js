@@ -2,7 +2,7 @@ import React from 'react'
 
 function MyRent() {
   return (
-    <div>MyRent</div>
+    <div>대여도서</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function MyLate() {
   return (
-    <div>MyLate</div>
+    <div>연체</div>
   )
 }
 

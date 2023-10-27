@@ -2,7 +2,7 @@ import React from 'react'
 
 function BookBye() {
   return (
-    <div>BookBye</div>
+    <div>폐기도서</div>
   )
 }
 

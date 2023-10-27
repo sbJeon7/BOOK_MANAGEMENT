@@ -2,7 +2,7 @@ import React from 'react'
 
 function BookList() {
   return (
-    <div>BookList</div>
+    <div>도서목록</div>
   )
 }
 
