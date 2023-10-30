@@ -1,8 +1,20 @@
 import React from 'react'
 
 function BookList() {
-  return (
-    <div>도서목록</div>
+  return (<table>
+    <div>
+      <thead>
+        <tr>
+        <th>도서명</th>
+        <th>저자</th>
+        <th>출판사</th>
+      </tr>
+    </thead>
+    </div>
+    <tbody>
+      dd
+    </tbody>
+  </table>
   )
 }
 

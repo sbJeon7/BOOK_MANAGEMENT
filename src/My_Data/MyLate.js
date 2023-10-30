@@ -2,7 +2,20 @@ import React from 'react'
 
 function MyLate() {
   return (
-    <div>연체</div>
+    <table>
+      <div>
+        <thead>
+          <tr>
+          <th>도서명</th>
+          <th>연체일</th>
+          <th>연장신청</th>
+        </tr>
+      </thead>
+      </div>
+      <tbody>
+        dd
+      </tbody>
+    </table>
   )
 }
 
